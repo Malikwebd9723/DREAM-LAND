@@ -1,0 +1,23 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  font-family:monospace;
+}
+body{
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+:root{
+  --bg:#ebfff0;
+  --light :#b2b7b5;
+  --sky:#b4cfc4;
+  --dark:#727875;
+}
+::placeholder{
+  color: rgb(110, 106, 106) !important;
+}
+a{
+  color: white !important;
+}
